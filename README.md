@@ -1,4 +1,4 @@
-# dsalgo-js  ![JavaScript](https://img.icons8.com/color/48/000000/javascript.png) ![TypeScript](https://img.icons8.com/color/48/000000/typescript.png)
+# dstruct-js  ![JavaScript](https://img.icons8.com/color/48/000000/javascript.png) ![TypeScript](https://img.icons8.com/color/48/000000/typescript.png)
 
 A lightweight JavaScript package providing Stack and Queue data structures with TypeScript support.
 
@@ -17,16 +17,16 @@ A lightweight JavaScript package providing Stack and Queue data structures with 
 
 ## Installation
 
-You can install `dsalgo-js` via npm:
+You can install `dstruct-js` via npm:
 
 ```bash
-npm install dsalgo-js
+npm install dstruct-js
 ```
 
 ## Usage
 ### In JavaScript
 ```
-import { Stack, Queue } from 'dsalgo-js';
+import { Stack, Queue } from 'dstruct-js';
 
 // Using Stack
 const stack = new Stack();
@@ -45,7 +45,7 @@ console.log(queue.front()); // 2
 
 ### In TypeScript
 ```
-import { Stack, Queue } from 'dsalgo-js';
+import { Stack, Queue } from 'dstruct-js';
 
 // Using Stack
 const stack = new Stack<number>();

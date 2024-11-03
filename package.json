@@ -1,5 +1,5 @@
 {
-  "name": "dsalgo-js",
+  "name": "dstruct-js",
   "version": "1.0.0",
   "description": "A lightweight JavaScript package providing Stack and Queue data structures with TypeScript support.",
   "type": "module",
