@@ -1,12 +1,38 @@
 {
-  "name": "dsalgo",
+  "name": "dsalgo-js",
   "version": "1.0.0",
-  "main": "index.js",
+  "description": "A lightweight JavaScript package providing Stack and Queue data structures with TypeScript support.",
+  "type": "module",
+  "main": "src/index.js",
+  "types": "types/index.d.ts",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "jest",
+    "build": "tsc",
+    "clean": "rimraf dist"
   },
-  "keywords": [],
-  "author": "",
-  "license": "ISC",
-  "description": ""
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/Aniket-ap/dsalgo-js"
+  },
+  "keywords": [
+    "data structures",
+    "stack",
+    "queue",
+    "algorithms",
+    "JavaScript",
+    "TypeScript",
+    "dsalgo"
+  ],
+  "author": "Aniket Pradhan",
+  "license": "MIT",
+  "devDependencies": {
+    "@types/jest": "^29.5.14",
+    "jest": "^29.7.0",
+    "rimraf": "^3.0.2",
+    "ts-jest": "^29.2.5",
+    "typescript": "^5.6.3"
+  },
+  "dependencies": {
+    "@babel/preset-env": "^7.26.0"
+  }
 }
