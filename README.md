@@ -40,7 +40,7 @@ const queue = new Queue();
 queue.enqueue(1);
 queue.enqueue(2);
 console.log(queue.dequeue()); // 1
-console.log(queue.front()); // 2
+console.log(queue.peek()); // 2
 ```
 
 ### In TypeScript
@@ -59,7 +59,7 @@ const queue = new Queue<number>();
 queue.enqueue(1);
 queue.enqueue(2);
 console.log(queue.dequeue()); // 1
-console.log(queue.front()); // 2
+console.log(queue.peek()); // 2
 
 ```
 
@@ -74,7 +74,7 @@ console.log(queue.front()); // 2
 ### Queue
 - enqueue(value: T): void - Adds an item to the end of the queue.
 - dequeue(): T | undefined - Removes and returns the item at the - front of the queue.
-- front(): T | undefined - Returns the item at the front without removing it.
+- peek(): T | undefined - Returns the item at the front without removing it.
 - isEmpty(): boolean - Returns true if the queue is empty
 
 ## Running Tests
